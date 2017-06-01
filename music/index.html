@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/music.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <title>音乐播放器</title>
+    <script src="js/audio.js"></script>
+    <script src="js/music.js"></script>
+</head>
+<body>
+    <header>
+        <input type="text" placeholder="初爱">
+        <audio src="music/阴天.mp3"></audio>
+    </header>
+    <main>
+        <div class="floor">
+            <div class="imgbox"><img src="images/mww.jpg" alt=""></div>
+            <p class="info"></p>
+            <h3 class="song">阴天</h3>
+            <h4 class="author">莫文蔚</h4>
+            <ul class="lyrics">
+                <!--<li>阴天在不开灯的房间</li>
+                <li>阴天在不开灯的房间</li>
+                <li>阴天在不开灯的房间</li>-->
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <div class="left">
+            <div class="btn"> <i class="last iconfont icon-zhutishangyiqu"></i></div>
+            <div class="btn">
+                <i class="play iconfont icon-bofang"></i>
+                <!--<i class="iconfont icon-2"></i>-->
+            </div>
+            <div class="btn">
+                <i class="next iconfont icon-zhutixiayiqu"></i>
+            </div>
+        </div>
+        <div class="center">
+            <span class="cTime"></span>
+            <div class="big">
+                <div class="small"></div>
+            </div>
+            <span class="dTime"></span>
+        </div>
+        <div class="right">
+            <i class="iconfont icon-yinliang"></i>
+            <div class="volue"></div>
+        </div>
+    </footer>
+</body>
+</html>

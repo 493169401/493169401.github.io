@@ -1,0 +1,432 @@
+body{
+  	font-family:Helvetica;
+  	}
+text{
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-appearance: none;
+	-webkit-text-size-adjust:100%;
+	-webkit-user-select:none;
+	-webkit-overflow-scrolling:touch;
+	-webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0);
+	-webkit-user-select:none;user-select:none;
+  	-webkit-tap-highlight-color:rgba(255,255,255,0);
+  	-webkit-text-size-adjust: 100%;
+
+}
+ html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {-webkit-text-size-adjust:none;}
+p{max-height:9999999px;
+-webkit-overflow-scrolling:touch; overflow-scrolling: touch;
+}
+
+
+*{
+	list-style:none;
+	font-size:12px;
+	margin:0;
+	padding:0;
+	border:0;	
+}
+img{
+	display:block;
+}
+a{
+	text-decoration:none;
+}
+/*头部开始*/
+header{
+	width:100%;
+	height:1.28rem;
+	margin:0 auto;
+	background:#31BAFF;
+	border-top:0.01rem solid #31BAFF;
+	position:fixed;
+	top:0;
+	left:0;
+}
+header .box{
+	width:7.9rem;
+	height:0.94rem;
+	border-radius:0.1rem;
+	background:#fff;
+	border:1px solid #DBDCDB;
+	margin-left:0.2rem;
+	margin-top:0.13rem;
+	float:left;
+}
+header .box input{
+	margin-top:0.25rem;
+	margin-left:0.16rem;
+	outline:none;
+	font-size: 0.36rem;
+	color:#BEBEBE;
+	float:left;
+}
+header .box .son{
+	width:0.9rem;
+	height:0.90rem;
+	/*border:0.01rem solid red;*/
+	float:right;
+	margin-right:0.15rem;
+	background-image: url(../img/icon.png);
+	background-position: 0.1rem 0.15rem;
+	background-size:2.5rem;
+}
+header>input{
+	width:2.05rem;
+	height:0.88rem;
+	border-radius:0.2rem;
+	background:#03159B;
+	color:#fff;
+	font-size: 0.36rem;
+	text-align:center;
+	line-height: 0.88rem;
+	margin-left:0.3rem;
+	margin-top:0.2rem;
+	float:left;
+}
+/*头部结束*/
+/*banner开始*/
+.banner{
+	width:100%;
+	height:4.75rem;
+	/*background:red;*/
+	margin:0 auto;
+	margin-top:1.28rem;
+}
+.banner a,.banner a img{
+	display:block;
+	width:100%;
+	height:4.75rem;
+}
+/*banner结束*/
+/*菜单开始*/
+.content{
+	width:100%;
+	height:6.95rem;
+	background:#F5F6FA;
+	margin:0 auto;
+}
+.content ul{
+	width:100%;
+	height:3.68rem;
+	margin:0 auto;
+	background:#F5F6FA;
+	display:flex;
+	justify-content:space-around;
+}
+.content ul>li{
+	width:2.23rem;
+	height:3.22rem;
+	background:#F5F6FA;
+	text-align: center;
+}
+.content ul li>a{
+	/*display:block!important;*/
+	width:2.23rem;
+	height:2.23rem;
+	border-radius:0.4rem;
+	background:#fff;
+	border-top:1px solid #fff;
+	margin-top:0.4rem;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	/*position:relative;
+	top:0;
+	left:0;*/
+	
+}
+.content ul li p{
+	font-size:0.28rem;
+	/*font-weight:700;*/
+	color:#020202;
+	margin-top:0.30rem;
+}
+.content ul>li>a>div{
+	width:1.4rem;
+	height:1.4rem;
+	/*background:blue;*/
+	/*border:0.01rem solid blue;*/
+	/*margin-top:0.4rem;
+	margin-left:0.4rem;*/
+	/*position:absolute;
+	top:center;
+	left:center;*/
+}
+.content ul>li>a .li-1{
+	background-image: url(../img/shouye6.png);
+	background-position: ;
+	background-size:2.9rem ;
+}
+.content ul>li>a .li-2{
+	background-image: url(../img/shouye6.png);
+	background-position: -10.2rem 0;
+	background-size:2.9rem ;
+}
+.content ul>li>a .li-3{
+	background-image: url(../img/shouye6.png);
+	background-position: 0.06rem 10.4rem;
+	background-size:2.9rem ;
+}
+.content ul>li>a .li-4{
+	background-image: url(../img/ufo.png);
+	background-position: 0rem 0rem;
+	background-size:1.4rem ;
+}
+.content ul>li>a .li-5{
+	background-image: url(../img/shouye6.png);
+	background-position: -10.2rem 10.4rem;
+	background-size:2.9rem ;
+}
+.content ul>li>a .li-6{
+	background-image: url(../img/shouye6.png);
+	background-position: 0rem 19.3rem;
+	background-size:2.9rem ;
+}
+.content ul>li>a .li-7{
+	background-image: url(../img/shouye6.png);
+	background-position: 0.03rem 20.9rem;
+	background-size:2.9rem ;
+}
+.content ul>li>a .li-8{
+	background-image: url(../img/shouye6.png);
+	background-position: -10.2rem 20.8rem;
+	background-size:2.9rem ;
+}
+/*菜单结束*/
+.title{
+	width:100%;
+	height:0.9rem;
+	background:#fff;
+	/*border:0.01rem solid #EFEBEF;*/
+	border-bottom:1px solid #EFEBEF;
+	margin:0 auto;
+	font-size:0.3rem;
+	color:#6EAEDA;
+	text-align:center;
+	line-height:0.9rem;
+	margin-top:0.45rem;
+	
+	}
+.fw1{
+	width:100%;
+	height:3.18rem;
+	/*background:green;*/
+	border-top:1px solid #EFEBEF;
+	border-bottom:1px solid #EFEBEF;
+	margin:0 auto;
+}	
+.fw1>li{
+	float:left;
+	width:5.38rem;
+	height:3.18rem;
+	background:#fff;
+	border-right:1px solid #EFEBEF;
+}
+.fw1>li:nth-child(2){
+	border-right:0;
+}
+.fw1 li .left{
+	width:2.5rem;
+	height:3.18rem;
+/*	background:yellow;*/
+	float:left;
+	margin-left:0.2rem;
+}
+.fw1 li .left>p:nth-child(1){
+	font-size:0.32rem;
+	/*font-weight:bold;*/
+	color:#232223;
+	margin-top:0.62rem;
+}
+.fw1 li .left>p:nth-child(2){
+	font-size:0.24rem;
+	/*font-weight:bold;*/
+	color:#DFE0DF;
+	margin-top:0.08rem;
+}
+.fw1 li .right1{
+	width:2.1rem;
+	height:1.90rem;
+	/*background:green;*/
+	float:right;
+	margin-top:0.57rem;
+	margin-right:0.4rem;
+	background-image: url(../img/shouye6.png);
+	background-position: 24.0rem 20.8rem;
+	background-size:3.42rem;
+}
+.fw1 li .right2{
+	width:2.1rem;
+	height:1.90rem;
+	/*background:green;*/
+	float:right;
+	margin-top:0.57rem;
+	margin-right:0.4rem;
+	background-image: url(../img/shouye6.png);
+	background-position: 20.1rem 15.3rem;
+	background-size:2.88rem;
+}
+.fw2{
+	width:100%;
+	height:1.9rem;
+	/*background:blue;*/
+	margin:0 auto;
+	margin-bottom:1.3rem;
+}
+.fw2 li{
+	width:33%;
+	height:1.9rem;
+	border-right:1px solid #EFEBEF;
+	float:left;
+}
+.fw2 li:nth-child(3){
+	border-right:0;
+}
+.fw2 li .left1{
+	width:0.83rem;
+	height:0.83rem;
+/*	border:0.01rem solid red;*/
+	float:left;
+	margin-top:0.6rem;
+	margin-left:0.3rem;
+	background-image: url(../img/shouye6.png);
+	background-position: 20.1rem 21.8rem;
+	background-size:2.5rem;
+}
+.fw2 li .left2{
+	width:0.83rem;
+	height:0.83rem;
+	/*border:0.01rem solid red;*/
+	float:left;
+	margin-top:0.6rem;
+	margin-left:0.3rem;
+	background-image: url(../img/shouye6.png);
+	background-position: 19.23rem 21.8rem;
+	background-size:2.5rem;
+}
+.fw2 li .left3{
+	width:0.83rem;
+	height:0.83rem;
+	/*border:0.01rem solid red;*/
+	float:left;
+	margin-top:0.6rem;
+	margin-left:0.3rem;
+	background-image: url(../img/shouye6.png);
+	background-position: 18.45rem 21.8rem;
+	background-size:2.5rem;
+}
+.fw2 li .right{
+	width:1.90rem;
+	height:0.73rem;
+	/*border:0.01rem solid red;*/
+	float:left;
+	margin-top:0.6rem;
+	margin-left:0.2rem;
+}
+.fw2 li .right>p:nth-child(1){
+	font-size:0.32rem;
+	/*font-weight:bold;*/
+	color:#232223;
+}
+.fw2 li .right>p:nth-child(2){
+	font-size:0.24rem;
+	/*font-weight:bold;*/
+	color:#DFE0DF;
+	margin-top: 0.12rem;
+}
+footer{
+	width:100%;
+	height:1.3rem;
+	background:#E7E7E7;
+	margin:0 auto;
+	position:relative;
+	position:fixed;
+	bottom:0;
+	
+	
+}
+footer .box1{
+	width:30%;
+	height:1.3rem;
+	/*background:red;*/
+	/*border:0.01rem solid red;*/
+	text-align:center;
+	float:left;
+}
+footer .box2{
+	width:30%;
+	height:1.3rem;
+	/*border:red;*/
+	/*border:0.01rem solid red;*/
+	text-align:center;
+	float:right;
+}
+footer .box1 .left1{
+	width:0.45rem;
+	height:0.45rem;
+	/*border:0.01rem solid blue;*/
+	float:left;
+	margin-top:0.4rem;
+	margin-left:0.35rem;
+	background-image: url(../img/qq.png);
+	background-position: 1rem 20.88rem;
+	background-size:0.5rem;
+}
+footer .box1 p{
+	font-size:0.33rem;
+	/*font-weight:bold;*/
+	color:#000;
+	margin-top: 0.4rem;
+	margin-left:0.35rem;
+}
+footer .box2 p{
+	font-size:0.33rem;
+	/*font-weight:bold;*/
+	color:#000;
+	margin-top: 0.4rem;
+	margin-left:0.35rem;
+}
+footer .box2 .left2{
+	width:0.45rem;
+	height:0.45rem;
+	/*border:0.01rem solid blue;*/
+	float:left;
+	margin-top:0.4rem;
+	margin-left:0.35rem;
+	background-image: url(../img/xinxi.png);
+	background-position: 0 0;
+	background-size:100%;
+}
+.phone{
+	width:4.32rem;
+	height:1.3rem;
+	/*text-align: center;*/
+	background:#FF8E10;
+	border-radius:0.2rem;
+	box-shadow:0.01rem 0.01rem 0.3rem 0.03rem #FF8E10;
+	position:absolute;
+	top:-0.2rem;
+	left:3.2rem;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.phone .left{
+	width:0.45rem;
+	height:0.45rem;
+	/*border:0.01rem solid blue;*/
+	float:left;
+	/*margin-top:0.4rem;
+	margin-left:1rem;*/
+	background-image: url(../img/dianhua.png);
+	background-position: 0px 0px;
+	background-size:100%;
+}
+.phone p{
+	font-size:0.33rem;
+	font-weight:bold;
+	color:#fff;
+	/*margin-top: 0.4rem;
+	margin-left:0.16rem;*/
+}

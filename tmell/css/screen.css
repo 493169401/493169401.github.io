@@ -1,0 +1,31 @@
+/*
+* @Author: Administrator
+* @Date:   2017-05-13 23:32:08
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-05-14 01:02:41
+*/
+@media screen and (max-width:1260px){
+	header{
+		width: 982px;
+	}
+	header form{
+	width: 413px;
+	}
+	header form input:nth-child(1){
+		width: 276px;
+	}
+	header ul li:nth-child(6)~li{
+		display: none;
+	}
+	header ul li:nth-child(6){
+		border: 0;
+	}
+}
+@media screen and (max-width:1246px){
+	nav .con{
+		width: 982px;
+	}
+	.del{
+		display: none;
+	}
+}

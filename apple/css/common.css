@@ -1,0 +1,23 @@
+body,ul,li,ol,p,pre,h1,h2,img,input,form,h3,h4,h5,h6{
+	margin:0;
+	padding:0;
+}
+a,a:visited{
+	text-decoration:none;
+	color: #555555;
+}
+li a:hover{
+	text-decoration:underline;
+}
+a:hover{
+	color:#555555;
+}
+*{
+	font-family:微软雅黑;
+}
+ul li{
+	list-style:none;
+}
+img,input{
+	border:0;
+}
