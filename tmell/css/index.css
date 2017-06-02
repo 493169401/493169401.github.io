@@ -69,6 +69,7 @@ nav .con .right li:nth-child(1){
 	position: relative;
 	top: 0;
 	left: 0;
+	z-index: 999;
 }
 nav .con .right li:nth-child(1) i{
 	display: inline-block;
@@ -117,6 +118,7 @@ nav .con .right li:nth-child(4){
 	position: relative;
 	top: 0;
 	left: 0;
+	z-index: 999;
 }
 nav .con .right li:nth-child(4) .menu{
 	width: 90px;
@@ -161,6 +163,7 @@ nav .con .right li:nth-child(5){
 	position: relative;
 	top:0;
 	left:0;
+	z-index: 999;
 }
 nav .con .right li:nth-child(5) span{
 color: #999999;
@@ -182,6 +185,7 @@ nav .con .right li:nth-child(8){
 	position: relative;
 	top: 0;
 	left: 0;
+	z-index: 999;
 }
 nav .con .right li:nth-child(8) i{
 	font-size: 10px;
@@ -231,6 +235,7 @@ nav .con .right li:nth-child(9){
 	position: relative;
 	top: 0;
 	left:0;
+	z-index: 999;
 }
 nav .con .right li:nth-child(9) .menu{
 	width: 1192px;
