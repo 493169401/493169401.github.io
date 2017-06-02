@@ -57,7 +57,7 @@ $(function(){
 
                 let canvas6=document.querySelector('.canvas6');
                 let ctx6=canvas6.getContext('2d');
-                percentage(canvas6,ctx6,89,n=0);
+                percentage(canvas6,ctx6,74,n=0);
             }
             if (index == 4) {
 
